@@ -1,0 +1,902 @@
+{
+  "alibi": {
+    "name": "Alibi",
+    "role": "atk",
+    "unit": "GIS",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "f",
+      "country": "it",
+      "season": "Y3S2",
+      "height": 171,
+      "weight": 63,
+      "real_name": "Aria de Luca",
+      "birthday": "1982-12-15T00:00Z",
+      "birthplace": "Tripoli, Lybia"
+    }
+  },
+  "amaru": {
+    "displayName": "Amaru",
+    "role": "atk",
+    "unit": "APCA",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "pe",
+      "season": "Y4S3",
+      "height": 189,
+      "weight": 84,
+      "real_name": "Azucena Rocío Quispe",
+      "birthday": "1971-05-06T00:00Z",
+      "birthplace": "Cojata, Peru"
+    }
+  },
+  "ash": {
+    "displayName": "Ash",
+    "role": "atk",
+    "unit": "FBI",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "f",
+      "country": "us",
+      "season": "Release",
+      "height": 170,
+      "weight": 63,
+      "real_name": "Eliza Cohen",
+      "birthday": "1985-12-24T00:00Z",
+      "birthplace": "Jerusalem, Israel"
+    }
+  },
+  "bandit": {
+    "displayName": "Bandit",
+    "role": "def",
+    "unit": "GSG9",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "m",
+      "country": "de",
+      "season": "Release",
+      "height": 180,
+      "weight": 68,
+      "real_name": "Dominic Brunsmeier",
+      "birthday": "1977-08-13T00:00Z",
+      "birthplace": "Berlin, Germany"
+    }
+  },
+  "blackbeard": {
+    "displayName": "Blackbeard",
+    "role": "atk",
+    "unit": "SEALS",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "us",
+      "season": "Y1S2",
+      "height": 180,
+      "weight": 84,
+      "real_name": "Craig Jenson",
+      "birthday": "1985-03-12T00:00Z",
+      "birthplace": "Bellevue, U.S.A"
+    }
+  },
+  "blitz": {
+    "displayName": "Blitz",
+    "role": "atk",
+    "unit": "GSG9",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "de",
+      "season": "Y1S2",
+      "height": 175,
+      "weight": 75,
+      "real_name": "Elias Kötz",
+      "birthday": "1980-04-02T00:00Z",
+      "birthplace": "Bremen, Germany"
+    }
+  },
+  "buck": {
+    "displayName": "Buck",
+    "role": "atk",
+    "unit": "JTF-2",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "ca",
+      "season": "Y1S1",
+      "height": 178,
+      "weight": 84,
+      "real_name": "Sébastien Côté",
+      "birthday": "1980-08-20T00:00Z",
+      "birthplace": "Montreal, Canada"
+    }
+  },
+  "capitao": {
+    "displayName": "Capitao",
+    "role": "atk",
+    "unit": "BOPE",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "m",
+      "country": "br",
+      "season": "Y1S3",
+      "height": 180,
+      "weight": 86,
+      "real_name": "Vincente Souza",
+      "birthday": "1967-11-17T00:00Z",
+      "birthplace": "Nova Iguacu, Brazil"
+    }
+  },
+  "castle": {
+    "displayName": "Castle",
+    "role": "def",
+    "unit": "SWAT",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "us",
+      "season": "Release",
+      "height": 185,
+      "weight": 86,
+      "real_name": "Miles Campbell",
+      "birthday": "1980-09-20T00:00Z",
+      "birthplace": "Sherman Oaks, U.S.A"
+    }
+  },
+  "caveira": {
+    "displayName": "Caveira",
+    "role": "def",
+    "unit": "BOPE",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "f",
+      "country": "br",
+      "season": "Y1S3",
+      "height": 155,
+      "weight": 73,
+      "real_name": "Taina Pereira",
+      "birthday": "1989-10-15T00:00Z",
+      "birthplace": "Rinópolis, Brazil"
+    }
+  },
+  "clash": {
+    "displayName": "Clash",
+    "role": "def",
+    "unit": "GSUTR",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "f",
+      "country": "uk",
+      "season": "Y3S3",
+      "height": 179,
+      "weight": 73,
+      "real_name": "Morowa Evans",
+      "birthday": "1984-06-07T00:00Z",
+      "birthplace": "London, England"
+    }
+  },
+  "doc": {
+    "displayName": "Doc",
+    "role": "def",
+    "unit": "GIGN",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "fr",
+      "season": "Release",
+      "height": 177,
+      "weight": 79,
+      "real_name": "Morowa Evans",
+      "birthday": "1977-09-16T00:00Z",
+      "birthplace": "Paris, France"
+    }
+  },
+  "dokkaebi": {
+    "displayName": "Dokkaebi",
+    "role": "atk",
+    "unit": "SMB",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "sk",
+      "season": "Y2S4",
+      "height": 169,
+      "weight": 62,
+      "real_name": "Grace Nam",
+      "birthday": "1988-02-02T00:00Z",
+      "birthplace": "Seoul, South Korea"
+    }
+  },
+  "echo": {
+    "displayName": "Echo",
+    "role": "def",
+    "unit": "SAT",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "jp",
+      "season": "Y1S4",
+      "height": 180,
+      "weight": 72,
+      "real_name": "Masaru Enatsu",
+      "birthday": "1980-10-31T00:00Z",
+      "birthplace": "Suginami, Japan"
+    }
+  },
+  "ela": {
+    "displayName": "Ela",
+    "role": "def",
+    "unit": "GROM",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "f",
+      "country": "pl",
+      "season": "Y1S4",
+      "height": 173,
+      "weight": 68,
+      "real_name": "Elzbieta Bosak",
+      "birthday": "1985-11-08T00:00Z",
+      "birthplace": "Wroclaw, Poland"
+    }
+  },
+  "finka": {
+    "displayName": "Finka",
+    "role": "atk",
+    "unit": "CBRN",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "ru",
+      "season": "Y3S1",
+      "height": 171,
+      "weight": 68,
+      "real_name": "Lera Melnikova",
+      "birthday": "1989-06-07T00:00Z",
+      "birthplace": "Gomel, Belarus"
+    }
+  },
+  "frost": {
+    "displayName": "Frost",
+    "role": "def",
+    "unit": "JTF-2",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "ca",
+      "season": "Y1S1",
+      "height": 172,
+      "weight": 58,
+      "real_name": "Tina Lin Tsang",
+      "birthday": "1985-05-04T00:00Z",
+      "birthplace": "Vancouver, Canada"
+    }
+  },
+  "fuze": {
+    "displayName": "Fuze",
+    "role": "atk",
+    "unit": "SPETSNAZ",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "ru",
+      "season": "Release",
+      "height": 172,
+      "weight": 58,
+      "real_name": "Shuhrat Kessikbayev",
+      "birthday": "1984-10-12T00:00Z",
+      "birthplace": "Samarkand, Uzbekistan"
+    }
+  },
+  "glaz": {
+    "displayName": "Glaz",
+    "role": "atk",
+    "unit": "SPETSNAZ",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "ru",
+      "season": "Release",
+      "height": 178,
+      "weight": 79,
+      "real_name": "Timur Glazkov",
+      "birthday": "1989-07-02T00:00Z",
+      "birthplace": "Vladivostok, Russia"
+    }
+  },
+  "goyo": {
+    "displayName": "Goyo",
+    "role": "def",
+    "unit": "FES",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "mx",
+      "season": "Y4S3",
+      "height": 171,
+      "weight": 83,
+      "real_name": "César Ruiz Hernández",
+      "birthday": "1987-06-10T00:00Z",
+      "birthplace": "Culiacán Rosales, Mexico"
+    }
+  },
+  "gridlock": {
+    "displayName": "Gridlock",
+    "role": "atk",
+    "unit": "SASR",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "f",
+      "country": "au",
+      "season": "Y4S1",
+      "height": 171,
+      "weight": 83,
+      "real_name": "Tori Tallyo Fairous",
+      "birthday": "1983-08-05T00:00Z",
+      "birthplace": "Longreach, Australia"
+    }
+  },
+  "hibana": {
+    "displayName": "Hibana",
+    "role": "atk",
+    "unit": "SAT",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "f",
+      "country": "jp",
+      "season": "Y1S4",
+      "height": 173,
+      "weight": 57,
+      "real_name": "Yumiko Imagawa",
+      "birthday": "1983-06-12T00:00Z",
+      "birthplace": "Nagoya, Japan"
+    }
+  },
+  "iq": {
+    "displayName": "IQ",
+    "role": "atk",
+    "unit": "GSG9",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "f",
+      "country": "de",
+      "season": "Release",
+      "height": 175,
+      "weight": 70,
+      "real_name": "Monika Weiss",
+      "birthday": "1979-08-01T00:00Z",
+      "birthplace": "Leipzig, Germany"
+    }
+  },
+  "jackal": {
+    "displayName": "Jackal",
+    "role": "atk",
+    "unit": "GEO",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "es",
+      "season": "Release",
+      "height": 190,
+      "weight": 78,
+      "real_name": "Ryad Ramirez Al-Hassar",
+      "birthday": "1968-02-29T00:00Z",
+      "birthplace": "Ceuta, Spain"
+    }
+  },
+  "jager": {
+    "displayName": "Jäger",
+    "role": "def",
+    "unit": "GSG9",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "m",
+      "country": "de",
+      "season": "Release",
+      "height": 180,
+      "weight": 64,
+      "real_name": "Marius Streicher",
+      "birthday": "1980-03-09T00:00Z",
+      "birthplace": "Düsseldorf, Germany"
+    }
+  },
+  "kaid": {
+    "displayName": "Kaid",
+    "role": "def",
+    "unit": "GIGR",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "ma",
+      "season": "Y3S4",
+      "height": 195,
+      "weight": 98,
+      "real_name": "Jalal El Fassi",
+      "birthday": "1961-06-26T00:00Z",
+      "birthplace": "Aroumd, Morocco"
+    }
+  },
+  "kapkan": {
+    "displayName": "Kapkan",
+    "role": "def",
+    "unit": "SPETSNAZ",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "ru",
+      "season": "Release",
+      "height": 180,
+      "weight": 80,
+      "real_name": "Maxim Basuda",
+      "birthday": "1981-05-14T00:00Z",
+      "birthplace": "Kovrov, Russia"
+    }
+  },
+  "lesion": {
+    "displayName": "Lesion",
+    "role": "def",
+    "unit": "SDU",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "hk",
+      "season": "Y2S3",
+      "height": 174,
+      "weight": 82,
+      "real_name": "Liu Tze Long",
+      "birthday": "1972-07-02T00:00Z",
+      "birthplace": "Tseung Kwan O (Junk Bay), Hong Kong"
+    }
+  },
+  "lion": {
+    "displayName": "Lion",
+    "role": "atk",
+    "unit": "CBRN",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "fr",
+      "season": "Y3S1",
+      "height": 185,
+      "weight": 87,
+      "real_name": "Olivier Flament",
+      "birthday": "1985-08-29T00:00Z",
+      "birthplace": "Toulouse, France"
+    }
+  },
+  "maestro": {
+    "displayName": "Maestro",
+    "role": "def",
+    "unit": "GIS",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "it",
+      "season": "Y3S2",
+      "height": 185,
+      "weight": 87,
+      "real_name": "Adriano Martello",
+      "birthday": "1974-04-13T00:00Z",
+      "birthplace": "Rome, Italy"
+    }
+  },
+  "maverick": {
+    "displayName": "Maverick",
+    "role": "atk",
+    "unit": "GSUTR",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "m",
+      "country": "us",
+      "season": "Y3S3",
+      "height": 180,
+      "weight": 82,
+      "real_name": "Erik Thorn",
+      "birthday": "1983-04-20T00:00Z",
+      "birthplace": "Boston, U.S.A"
+    }
+  },
+  "mira": {
+    "displayName": "Mira",
+    "role": "def",
+    "unit": "GEO",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "f",
+      "country": "es",
+      "season": "Y2S1",
+      "height": 165,
+      "weight": 60,
+      "real_name": "Elena Maria Alvarez del Manzano",
+      "birthday": "1971-11-18T00:00Z",
+      "birthplace": "Madrid, Spain"
+    }
+  },
+  "montagne": {
+    "displayName": "Montagne",
+    "role": "atk",
+    "unit": "GIGN",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "fr",
+      "season": "Release",
+      "height": 190,
+      "weight": 100,
+      "real_name": "Gilles Touré",
+      "birthday": "1968-10-11T00:00Z",
+      "birthplace": "Bordeaux, France"
+    }
+  },
+  "mozzie": {
+    "displayName": "Mozzie",
+    "role": "def",
+    "unit": "SASR",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "au",
+      "season": "Y4S1",
+      "height": 162,
+      "weight": 57,
+      "real_name": "Max Goose",
+      "birthday": "1984-02-15T00:00Z",
+      "birthplace": "Portland, Australia"
+    }
+  },
+  "mute": {
+    "displayName": "Mute",
+    "role": "def",
+    "unit": "SAS",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "uk",
+      "season": "Release",
+      "height": 170,
+      "weight": 80,
+      "real_name": "Mark Chandar",
+      "birthday": "1991-10-11T00:00Z",
+      "birthplace": "York, England"
+    }
+  },
+  "nokk": {
+    "displayName": "Nokk",
+    "role": "atk",
+    "unit": "JAEGER CORPS",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "dk",
+      "season": "Y4S2",
+      "height": null,
+      "weight": null,
+      "real_name": "[REDACTED]",
+      "birthday": null,
+      "birthplace": "[REDACTED]"
+    }
+  },
+  "nomad": {
+    "displayName": "Nomad",
+    "role": "atk",
+    "unit": "GIGR",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "ma",
+      "season": "Y3S4",
+      "height": 171,
+      "weight": 63,
+      "real_name": "Sanaa El Maktoub",
+      "birthday": "1980-07-27T00:00Z",
+      "birthplace": "Marrakesh, Morocco"
+    }
+  },
+  "pulse": {
+    "displayName": "Pulse",
+    "role": "def",
+    "unit": "FBI",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "m",
+      "country": "us",
+      "season": "Release",
+      "height": 188,
+      "weight": 85,
+      "real_name": "Jack Estrada",
+      "birthday": "1986-10-11T00:00Z",
+      "birthplace": "Goldsboro, U.S.A"
+    }
+  },
+  "rook": {
+    "displayName": "Rook",
+    "role": "def",
+    "unit": "GIGN",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "fr",
+      "season": "Release",
+      "height": 175,
+      "weight": 72,
+      "real_name": "Julien Nizan",
+      "birthday": "1992-01-06T00:00Z",
+      "birthplace": "Tours, France"
+    }
+  },
+  "sledge": {
+    "displayName": "Sledge",
+    "role": "atk",
+    "unit": "SAS",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "uk",
+      "season": "Release",
+      "height": 192,
+      "weight": 95,
+      "real_name": "Seamus Cowden",
+      "birthday": "1984-04-02T00:00Z",
+      "birthplace": "John O’groats, Scotland"
+    }
+  },
+  "smoke": {
+    "displayName": "Smoke",
+    "role": "def",
+    "unit": "SAS",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "uk",
+      "season": "Release",
+      "height": 173,
+      "weight": 70,
+      "real_name": "James Porter",
+      "birthday": "1990-05-14T00:00Z",
+      "birthplace": "London, England"
+    }
+  },
+  "tachanka": {
+    "displayName": "Tachanka",
+    "role": "def",
+    "unit": "SPETSNAZ",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "ru",
+      "season": "Release",
+      "height": 183,
+      "weight": 99.8,
+      "real_name": "Alexandr Senaviev",
+      "birthday": "1990-05-14T00:00Z",
+      "birthplace": "Saint Petersburg, Russia"
+    }
+  },
+  "thatcher": {
+    "displayName": "Thatcher",
+    "role": "atk",
+    "unit": "SAS",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "uk",
+      "season": "Release",
+      "height": 180,
+      "weight": 86,
+      "real_name": "Mike Baker",
+      "birthday": "1961-06-22T00:00Z",
+      "birthplace": "Bideford, England"
+    }
+  },
+  "thermite": {
+    "displayName": "Thermite",
+    "role": "atk",
+    "unit": "FBI",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "m",
+      "country": "us",
+      "season": "Release",
+      "height": 178,
+      "weight": 80,
+      "real_name": "Jordan Trace",
+      "birthday": "1984-03-14T00:00Z",
+      "birthplace": "Plano, U.S.A"
+    }
+  },
+  "twitch": {
+    "displayName": "Twitch",
+    "role": "atk",
+    "unit": "GIGN",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "fr",
+      "season": "Release",
+      "height": 168,
+      "weight": 58,
+      "real_name": "Emmanuelle Pichon",
+      "birthday": "1990-10-12T00:00Z",
+      "birthplace": "Nancy, France"
+    }
+  },
+  "valkyrie": {
+    "displayName": "Valkyrie",
+    "role": "def",
+    "unit": "SEALS",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "us",
+      "season": "Y1S2",
+      "height": 170,
+      "weight": 57,
+      "real_name": "Meghan J. Castellano",
+      "birthday": "1986-07-21T00:00Z",
+      "birthplace": "Oceanside, U.S.A"
+    }
+  },
+  "vigil": {
+    "displayName": "Vigil",
+    "role": "def",
+    "unit": "SMB",
+    "meta": {
+      "armor": 1,
+      "speed": 3,
+      "sex": "m",
+      "country": "sk",
+      "season": "Y2S4",
+      "height": 173,
+      "weight": 73,
+      "real_name": "Chul Kyung Hwa",
+      "birthday": "1984-01-17T00:00Z",
+      "birthplace": "[REDACTED]"
+    }
+  },
+  "warden": {
+    "displayName": "Warden",
+    "role": "def",
+    "unit": "SECRET SERVICE",
+    "meta": {
+      "armor": 3,
+      "speed": 1,
+      "sex": "m",
+      "country": "us",
+      "season": "Y4S2",
+      "height": 173,
+      "weight": 73,
+      "real_name": "Collinn McKinley",
+      "birthday": "1971-03-18T00:00Z",
+      "birthplace": "Louisville, U.S.A"
+    }
+  },
+  "ying": {
+    "displayName": "Ying",
+    "role": "atk",
+    "unit": "SDU",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "hk",
+      "season": "Y2S3",
+      "height": 160,
+      "weight": 52,
+      "real_name": "Siu Mei Lin",
+      "birthday": "1983-05-12T00:00Z",
+      "birthplace": "Central, Hong Kong"
+    }
+  },
+  "zofia": {
+    "displayName": "Zofia",
+    "role": "atk",
+    "unit": "GROM",
+    "meta": {
+      "armor": 2,
+      "speed": 2,
+      "sex": "f",
+      "country": "pl",
+      "season": "Y2S4",
+      "height": 179,
+      "weight": 72,
+      "real_name": "Zofia Bosak",
+      "birthday": "1981-01-28T00:00Z",
+      "birthplace": "Wroclaw, Poland"
+    }
+  },
+  "recruit-blue": {
+    "displayName": "Recruit (Blue)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "recruit-green": {
+    "displayName": "Recruit (Green)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "recruit-orange": {
+    "displayName": "Recruit (Orange)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "recruit-red": {
+    "displayName": "Recruit (Red)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "recruit-yellow": {
+    "displayName": "Recruit (Yellow)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit-blue": {
+    "displayName": "Outbreak Recruit (Blue)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit-green": {
+    "displayName": "Outbreak Recruit (Green)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit-orange": {
+    "displayName": "Outbreak Recruit (Orange)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit-red": {
+    "displayName": "Outbreak Recruit (Red)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit-yellow": {
+    "displayName": "Outbreak Recruit (Yellow)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  }
+}
