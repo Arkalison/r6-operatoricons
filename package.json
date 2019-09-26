@@ -1,0 +1,17 @@
+{
+  "name": "r6operators",
+  "version": "2.0.0",
+  "description": "r6operators is a collection of handcrafted Rainbow Six: Siege operator icons (SVG, PNG, AI) + additional metadata for all operators.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcopixel/r6operators.git"
+  },
+  "license": "CC-BY-4.0",
+  "author": "Marco Vockner <marcopixel@live.de>",
+  "contributors": [
+    "dtSniper (https://twitter.com/sniperdt)",
+    "Joey Foo (https://github.com/joeyfoo)",
+    "Lars Brix (https://github.com/LaxisB)"
+  ],
+  "main": "dist/index.js"
+}
