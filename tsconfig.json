@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "noEmit": true,
+        "outDir": "./dist",
+        "sourceMap": true,
+        "declaration": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    }
+}
