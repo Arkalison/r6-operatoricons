@@ -28,15 +28,16 @@ function execute(command: string) {
 
 /**
  * Generates the icons using Inkscape, optimizes them with SVGO and places them into `TARGET_DIR/[OPERATOR.ID]`
- * @param array - Array containing the operator objects (operators.json)
- * @returns {Promise} Returns either `Promise.resolve` or `Promise.reject`
+ * @param inputObject - Object containing the operator data (operators.json)
  */
-async function generateIcon(array: string[]) {
+async function generateIcon(inputObject) {
+    // init
+    const array = Object.keys(inputObject);
+    console.log(chalk.blue("Starting generation of PNG & SVG files..."));
+
     // counter vars
     const inputCount = array.length;
     let outputCount = 0;
-
-    console.log(chalk.blue("Starting generation of PNG & SVG files..."));
 
     // check if TARGET_DIR exist and create if not
     await fs.stat(TARGET_DIR).catch(() => {
@@ -109,4 +110,4 @@ async function generateIcon(array: string[]) {
         });
 }
 
-generateIcon(Object.keys(ops));
+generateIcon(ops);
