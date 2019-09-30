@@ -6,8 +6,8 @@ import chalk from "chalk";
 
 import ops from "../../operators.json";
 
-const INPUT_DIR = path.join(__dirname, `../icons/`);
-const TARGET_DIR = path.join(__dirname, `../dist/`);
+const INPUT_DIR = path.join(__dirname, `../../icons/`);
+const TARGET_DIR = path.join(__dirname, `../../dist/`);
 
 /**
  * Executes a command and returns a promise of it's Out/Error buffers
