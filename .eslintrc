@@ -1,0 +1,36 @@
+{
+    "plugins": ["@typescript-eslint", "promise", "unicorn"],
+    "extends": [
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:promise/recommended",
+        "plugin:unicorn/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 10,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console": "off",
+        "lines-between-class-members": "off",
+        "unicorn/filename-case": [
+            "error",
+            {
+                "case": "camelCase"
+            }
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            { "devDependencies": true }
+        ],
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/interface-name-prefix": "off",
+        "no-useless-return": "off"
+    }
+}
