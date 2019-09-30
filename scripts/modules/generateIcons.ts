@@ -74,17 +74,30 @@ async function generateIcon(inputObject) {
         await fs.copyFile(iconPath, targetFile("ai"));
 
         // export the icon as png and svg with inkscape
-        // prettier-ignore
         await execute(
-            `inkscape -f ${iconPath} --export-width 1400 --export-height 1400 -e ${targetFile("png")}`);
-        // prettier-ignore
+            // prettier-ignore
+            `inkscape -f ${iconPath} --export-width 1400 --export-height 1400 -e ${targetFile("png")}`
+        );
         await execute(
+            // prettier-ignore
             `inkscape -f ${iconPath} --export-plain-svg=${targetFile("svg")}`
         );
 
         // optimize the svg with SVGO
-        // prettier-ignore
-        await execute(`svgo -i ${targetFile("svg")} --multipass --enable=removeDimensions --disable=convertPathData,removeRasterImages`);
+        await execute(
+            // prettier-ignore
+            `svgo -i ${targetFile("svg")} --multipass --enable=removeDimensions --disable=convertPathData,removeRasterImages`
+        );
+
+        // zip all files from the folder + append readme
+        await execute(
+            // prettier-ignore
+            `7z a ${targetFile("zip")} ${outputPath}/*`
+        );
+        await execute(
+            // prettier-ignore
+            `7z a ${targetFile("zip")}${path.resolve(__dirname, "../util/readme.txt")}`
+        );
 
         // increase counter when finished and output it to the console
         outputCount += 1;
@@ -100,7 +113,9 @@ async function generateIcon(inputObject) {
     await Promise.all(result)
         .then(() => {
             // prettier-ignore
-            return console.log(chalk.green(`${outputCount}/${inputCount} items successfully generated! \nOutput folder: ${TARGET_DIR}`));
+            console.log(chalk.green(`${outputCount}/${inputCount} items successfully generated!`));
+            console.log(chalk.green(`Output folder: ${TARGET_DIR}`));
+            return;
         })
         .catch(error => {
             // prettier-ignore
