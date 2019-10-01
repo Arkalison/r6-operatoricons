@@ -1,12 +1,14 @@
-import chalk from "chalk";
 import path from "path";
-import { promises as fs } from "fs";
+import chalk from "chalk";
+import archiver from "archiver";
+import { promises as fs, createWriteStream, createReadStream } from "fs";
 import {
     ICON_DIR,
     OUTPUT_DIR,
     PNG_OPTIONS,
     SVGO_OPTIONS,
-    README_PATH
+    README_PATH,
+    LICENSE_PATH
 } from "../config";
 import exec from "../util/exec";
 
@@ -62,9 +64,33 @@ export default async function generateIcons(iconObject: {}) {
         // optimize the svg with SVGO
         await exec(`svgo -i ${targetFile("svg")} ${SVGO_OPTIONS}`);
 
-        // zip all files from the folder + append readme
-        await exec(`7z a ${targetFile("zip")} ${destPath}/*`);
-        await exec(`7z a ${targetFile("zip")} ${README_PATH}`);
+        // initzialize archiver
+        const output = createWriteStream(
+            path.resolve(`${destPath}${path.sep}${op}.zip`)
+        );
+        const archive = archiver("zip", {
+            zlib: { level: 9 },
+            store: true
+        });
+
+        // pipe archive data to the file
+        await archive.pipe(output);
+
+        // add files to zip
+        await archive.append(createReadStream(targetFile("svg")), {
+            name: `${op}.svg`
+        });
+        await archive.append(createReadStream(targetFile("png")), {
+            name: `${op}.png`
+        });
+        await archive.append(createReadStream(targetFile("ai")), {
+            name: `${op}.ai`
+        });
+        await archive.file(README_PATH, { name: `readme.txt` });
+        await archive.file(LICENSE_PATH, { name: `license.txt` });
+
+        // finalize it and save it
+        await archive.finalize();
 
         // increase counter when finished and output it to the console
         outputCount += 1;
