@@ -3,19 +3,19 @@ import path from "path";
 import { promises as fs } from "fs";
 import { OUTPUT_DIR } from "../config";
 
-export default async function buildIconJson(iconObject: {}) {
+export default function buildIconJson(iconObject: {}) {
     // inform user that script has started
     console.log(chalk.blue("Building icons.json..."));
 
     // map the icon object
-    const result = Object.keys(iconObject).map(async op => {
+    const result = Object.keys(iconObject).map(op => {
         // set name + file path of svg
         const name: string = op;
         const svgPath: string = path.resolve(
             `${OUTPUT_DIR}${path.sep}${op}${path.sep}${op}.svg`
         );
         // read file to get SVG content
-        return fs.readFile(svgPath).then(output => {
+        return fs.readFile(svgPath, "utf-8").then(output => {
             // create a new object
             const object = {
                 [name as string]: {
@@ -29,7 +29,7 @@ export default async function buildIconJson(iconObject: {}) {
     });
 
     // wait for all promises to finish
-    await Promise.all(result)
+    return Promise.all(result)
         .then(resolved => {
             // set output file path
             const outputPath = path.resolve(
