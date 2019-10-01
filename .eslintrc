@@ -25,6 +25,17 @@
                 "case": "camelCase"
             }
         ],
+        "unicorn/prevent-abbreviations": [
+            "error",
+            {
+                "replacements": {
+                    "dest": {
+                        "destination": false
+                    }
+                }
+            }
+        ],
+        "unicorn/no-process-exit": "off",
         "import/no-extraneous-dependencies": [
             "error",
             { "devDependencies": true }
