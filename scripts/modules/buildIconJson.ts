@@ -18,10 +18,7 @@ export default function buildIconJson(iconObject: {}) {
         return fs.readFile(svgPath, "utf-8").then(output => {
             // create a new object
             const object = {
-                [name as string]: {
-                    ...iconObject[op], // all existing contents of the object
-                    ["contents" as string]: output // svg string
-                }
+                [name as string]: output // svg string
             };
             // return new object to promise
             return object;
