@@ -899,52 +899,52 @@
             "birthplace": "Wroclaw, Poland"
         }
     },
-    "recruit-blue": {
+    "recruit_blue": {
         "name": "Recruit (Blue)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "recruit-green": {
+    "recruit_green": {
         "name": "Recruit (Green)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "recruit-orange": {
+    "recruit_orange": {
         "name": "Recruit (Orange)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "recruit-red": {
+    "recruit_red": {
         "name": "Recruit (Red)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "recruit-yellow": {
+    "recruit_yellow": {
         "name": "Recruit (Yellow)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "outbreakrecruit-blue": {
+    "outbreakrecruit_blue": {
         "name": "Outbreak Recruit (Blue)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "outbreakrecruit-green": {
+    "outbreakrecruit_green": {
         "name": "Outbreak Recruit (Green)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "outbreakrecruit-orange": {
+    "outbreakrecruit_orange": {
         "name": "Outbreak Recruit (Orange)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "outbreakrecruit-red": {
+    "outbreakrecruit_red": {
         "name": "Outbreak Recruit (Red)",
         "role": "Recruit",
         "unit": "Recruit"
     },
-    "outbreakrecruit-yellow": {
+    "outbreakrecruit_yellow": {
         "name": "Outbreak Recruit (Yellow)",
         "role": "Recruit",
         "unit": "Recruit"
