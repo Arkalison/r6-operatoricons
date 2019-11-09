@@ -35,6 +35,13 @@ export default interface IOperator {
     meta?: IMeta;
     /** Object containing biography of the operator. */
     bio?: IBio;
+
+    /**
+     * Returns the current icon as an SVG string.
+     * @param userAttributes Object containing additional element attributes.
+     * @returns String containing the SVG element.
+     */
+    toSVG(userAttributes?: {}): string;
 }
 
 interface IRatings {
