@@ -863,6 +863,24 @@
             "birthplace": "[REDACTED]"
         }
     },
+    "wamai": {
+        "name": "Wamai",
+        "role": "Defender",
+        "unit": "NIGHTHAVEN",
+        "ratings": { "armor": 2, "speed": 2 },
+        "meta": {
+            "sex": "m",
+            "country": "ke",
+            "season": "Y4S4",
+            "height": 187,
+            "weight": 83
+        },
+        "bio": {
+            "real_name": "Ngũgĩ Muchoki Furaha",
+            "birthday": "1991-06-01T00:00Z",
+            "birthplace": "Lamu, Kenya"
+        }
+    },
     "warden": {
         "name": "Warden",
         "role": "Defender",
