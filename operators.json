@@ -467,6 +467,24 @@
             "birthplace": "Aroumd, Morocco"
         }
     },
+    "kali": {
+        "name": "Kali",
+        "role": "Attacker",
+        "unit": "NIGHTHAVEN",
+        "ratings": { "armor": 2, "speed": 2 },
+        "meta": {
+            "sex": "f",
+            "country": "in",
+            "season": "Y4S4",
+            "height": 170,
+            "weight": 67
+        },
+        "bio": {
+            "real_name": "Jaimini Kalimohan Shah",
+            "birthday": "1985-08-21T00:00Z",
+            "birthplace": "Amreli, India"
+        }
+    },
     "kapkan": {
         "name": "Kapkan",
         "role": "Defender",
