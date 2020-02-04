@@ -1,13 +1,15 @@
 {
     "compilerOptions": {
-        "target": "esnext",
         "module": "commonjs",
-        "noImplicitAny": false,
-        "noEmit": true,
-        "outDir": "./dist",
-        "sourceMap": true,
+        "target": "es5",
+        "lib": ["ESNext", "dom"],
+        "moduleResolution": "node",
         "declaration": true,
+        "sourceMap": true,
+        "rootDir": "./src",
+        "outDir": "./lib",
         "resolveJsonModule": true,
         "esModuleInterop": true
-    }
+    },
+    "exclude": ["scripts", "dist", "lib"]
 }

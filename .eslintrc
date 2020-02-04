@@ -1,47 +1,30 @@
 {
+    "parser": "@typescript-eslint/parser",
     "plugins": ["@typescript-eslint", "promise", "unicorn"],
     "extends": [
-        "airbnb-typescript/base",
         "plugin:@typescript-eslint/recommended",
         "plugin:promise/recommended",
         "plugin:unicorn/recommended",
+        "plugin:import/typescript",
         "prettier",
         "prettier/@typescript-eslint"
     ],
-    "env": {
-        "node": true,
-        "browser": true
-    },
     "parserOptions": {
-        "ecmaVersion": 10,
+        "ecmaVersion": 2018,
         "sourceType": "module"
     },
     "rules": {
         "no-console": "off",
         "lines-between-class-members": "off",
+        "unicorn/no-process-exit": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/interface-name-prefix": "off",
+        "no-useless-return": "off",
         "unicorn/filename-case": [
             "error",
             {
                 "case": "camelCase"
             }
-        ],
-        "unicorn/prevent-abbreviations": [
-            "error",
-            {
-                "replacements": {
-                    "dest": {
-                        "destination": false
-                    }
-                }
-            }
-        ],
-        "unicorn/no-process-exit": "off",
-        "import/no-extraneous-dependencies": [
-            "error",
-            { "devDependencies": true }
-        ],
-        "@typescript-eslint/explicit-function-return-type": "off",
-        "@typescript-eslint/interface-name-prefix": "off",
-        "no-useless-return": "off"
+        ]
     }
 }

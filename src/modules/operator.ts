@@ -1,18 +1,28 @@
 /* eslint-disable unicorn/consistent-function-scoping */
 import cheerio from "cheerio";
 import classnames from "classnames";
+import { IOperator } from "../interfaces/operator";
 
-import iconData from "../../dist/icons.json";
-import IOperator from "../interfaces/operator";
+import iconData from "../icons.json";
 
-// extend interface with icon object
-interface Operator extends IOperator {
-    icon: {
+export interface Operator extends IOperator {
+    /** ID of the operator. */
+    id: string;
+    /** Object containing the operator icon. */
+    icon?: {
+        /** SVG contents without HTML tags. */
         svg: string;
+        /** SVG attributes as an object. */
         attributes: {
             [key: string]: unknown;
         };
     };
+    /**
+     * Returns the current icon as an SVG string.
+     * @param userAttributes Object containing additional element attributes.
+     * @returns String containing the SVG element.
+     */
+    toSVG(userAttributes?: {}): string | Error;
 }
 
 /**
@@ -39,7 +49,11 @@ export default function Operator(id: string, contents: IOperator): Operator {
         attributes
     };
 
-    function toSVG(userAttributes) {
+    function toSVG(userAttributes: { [key: string]: unknown }) {
+        // check if parameter is an object
+        if (typeof userAttributes !== "object") {
+            return new Error("The parameters are not supplied as an object.");
+        }
         // create an object containing all attributes from the icon + user attributes
         const combinedAttributes = {
             ...this.icon.attributes,

@@ -1,20 +1,20 @@
 import Operator from "./modules/operator";
-import operatorData from "../operators.json";
+import operatorJson from "./operators.json";
 
-// type definition
-type OperatorObject = {
-    [key in keyof typeof operatorData]: ReturnType<typeof Operator>;
-};
+// type definition for exported object
+type OperatorObject = Record<
+    keyof typeof operatorJson,
+    ReturnType<typeof Operator>
+>;
 
-const output = Object.keys(operatorData)
-    .map(op => Operator(op, operatorData[op]))
-    .reduce(
-        (object, op) => {
-            // eslint-disable-next-line no-param-reassign
-            object[op.id] = op;
-            return object;
-        },
-        {} as OperatorObject // set type for the object created by reduce
-    );
+// create new object with the keys of the JSON object
+const output = Object.keys(operatorJson)
+    // map the Operator() object to each item
+    .map(op => Operator(op, operatorJson[op]))
+    // reassign the item with the id of the operator
+    .reduce((object, op) => {
+        object[op.id] = op;
+        return object;
+    }, {} as OperatorObject);
 
-export default output;
+export = output;
