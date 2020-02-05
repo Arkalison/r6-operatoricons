@@ -2,7 +2,7 @@ import generateIcons from "./modules/generateIcons";
 import buildIconJson from "./modules/buildIconJson";
 import buildIconPackage from "./modules/buildIconPackage";
 
-import ops from "../operators.json";
+import ops from "../src/operators.json";
 
 async function main() {
     // generate all icon files (SVG, PNG, ZIP)

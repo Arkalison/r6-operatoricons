@@ -3,6 +3,7 @@ import path from "path";
 
 const ICON_DIR = path.join(__dirname, `../icons/`);
 const OUTPUT_DIR = path.join(__dirname, `../dist/`);
+const SRC_DIR = path.join(__dirname, `../src/`);
 
 const README_PATH = path.resolve(__dirname, "./util/readme.txt");
 const LICENSE_PATH = path.resolve(__dirname, "../license.txt");
@@ -14,6 +15,7 @@ const SVGO_OPTIONS =
 export {
     ICON_DIR,
     OUTPUT_DIR,
+    SRC_DIR,
     README_PATH,
     LICENSE_PATH,
     PNG_OPTIONS,

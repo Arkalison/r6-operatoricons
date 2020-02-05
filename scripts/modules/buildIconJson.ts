@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import path from "path";
 import { promises as fs } from "fs";
-import { OUTPUT_DIR } from "../config";
+import { OUTPUT_DIR, SRC_DIR } from "../config";
 
 export default function buildIconJson(iconObject: {}) {
     // inform user that script has started
@@ -29,9 +29,7 @@ export default function buildIconJson(iconObject: {}) {
     return Promise.all(result)
         .then(resolved => {
             // set output file path
-            const outputPath = path.resolve(
-                `${OUTPUT_DIR}${path.sep}icons.json`
-            );
+            const outputPath = path.resolve(`${SRC_DIR}${path.sep}icons.json`);
 
             // merge all objects from the promises and write to OUTPUT
             const merged = Object.assign({}, ...resolved);
